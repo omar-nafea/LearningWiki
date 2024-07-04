@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Learning Wiki Project</title>
+</head>
+<body>
+    <h1 class="title">Learning How to Learn</h1>
+    <nav class="pageContainer">
+        <a href="#Understand" class="boxcontainer"><li>Understand</li></a>
+        <a href="#Memorize" class="boxcontainer"><li>Memorize</li></a>
+        <a href="#techniques"class="boxcontainer"><li>Techniques</li></a>                         
+        <a href="#Concepts" class="boxcontainer"><li>Concepts</li></a>
+    </nav>
+    <main>
+        <div class="smallBox" onclick="openPopup()">&#x1F4A1; To Know : this page was designed to utilize the knowledge it explains (click to know more) 
+        </div>
+        
+
+    <!-- Pop-up Container -->
+    <div id="popup" class="popup">
+        <div class="popupContent">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>How to get benefit from this page</h2>
+            <p>This page is designed to be easily memorizable and understandable. I use 4 topics to easily form 4 chunks. Each topic has subtopics in it, and you can hide the definition of each topic so you can test yourself.</p>
+        </div>
+    </div>
+        <h1 id="Understand">Understand</h1>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Focus and Diffuse modes</h2>
+        <article >
+            <p>Focus mode is when you try to do a mental exercise. Like solving a math equation, trying to remember something very hard, or trying to understand a new concept, the importance of this mode is to make your mind do all these things; it can't do it without focusing.
+                <br>
+            Diffuse mode, on the other hand, is not to make any mental activity. The effort to do it is just fighting boredom, but the important thing is to complete the learning process because the brain does the work for you. First, it links the new information you just gained with your overall knowledge and related topics in your mind. Second, it gives your brain a break to be able to focus again. 
+            </p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Chunking</h2>
+        <article >
+            <p>Chunks are pieces of information that are bound together through meaning or use, and you can combine them together to see the big picture or be able to do a complex activity. They can also be applied to action, like any new skill anyone learns. He begins by learning the very basic moves, practicing them, then adding more moves until he has a number of chunks that can be combined together and make that skill.
+                <q style="color: black;">A Chunk:A network of neurons that used to firing together so you can think of though or perform an action smoothly and effectivly</q> 
+                The path to expertise is built little by little, so you chunk the concept you are trying to study or the skill you want to master, and the steps help you create chunks.<br>
+            - Focus<br>
+            - Understand<br> 
+            - Practice makes you gain context on when to use this chunk(big picture)<br>
+            </p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Metaphor</h2>
+        <article >
+            <p>Metaphor is a really smart way to link something you already know for granted with a new concept you are trying to learn, so it facilitates the understanding process. </p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Interleaving</h2>
+        <article >
+            <p>Interleaving is switching between topics or even subjects during a single study session to make your brain put in extra effort and see a bigger picture from multiple perspectives on multiple subjects.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Explaining to Others</h2>
+        <article >
+            <p>Explaining to Others is really important from multiple aspects. The first is to check your understanding; problems in understanding always appear only when you explain to others, and when you test yourself, Second to retrieve the information and strengthen the synapses in your brain.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Active Recall & testing Yourself</h2>
+        <article >
+            <p>Active recall has been proven to be the most effective way to study.
+                and it has multiple forms. One of them is to look at a question or the title of a topic and try to retrieve what you know about it and what you understand. I like this form because it combines the power of revisit and the practice of testing yourself.
+            </p>
+        </article>
+        <h1 id="Memorize">Memorize</h1>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Spaced Repetition</h2>
+        <article >
+            <p>Is the only way to stay remembering what you learned? The idea behind it is to review what you study after such an amount of time to don't forget it, so it's called spaced because you let space between each time you retain the information, and it can be by testing yourself, seeing a summary, or even practicing what you learned. </p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Analogy</h2>
+        <article >
+            <p>Is an effective way escpecially for visual peopel and the idea behind it is to imagine an imaginary picture that combine what you want to remember so it's very easy to you later to remember this comdey, interesting and evocative picture than the actual abstract information</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Memory palace</h2>
+        <article >
+            <p>Is an effective way, especially for visual people, and the idea behind it is to imagine an imaginary picture that combines what you want to remember, so it's very easy for you later to remember this comic, interesting, and evocative picture than the actual abstract information.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Mnemonics</h2>
+        <article >
+            <p>It is a technique to gather part of a block of information, and this part will remind you of the rest, and you gather it in evocative words, songs, or anything else you can remember.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Flashcards</h2>
+        <article >
+            <p>It is an application to some of the techniques I've just talked about, like active recall and spaced Repetition. You can use flashcards with question and answer faces to actively recall what you have learned and to repeat the review or retention over each time that has space between them.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Practice makes permenant</h2>
+        <article >
+            <p>Practice is also application to techniques and concepts, like spaced repetition, you can practice over time if you want to stay remembering a skill, plus practice makes you gain context on when to use this knowledge or how to perfectly do such a skill. In short, it makes you see the big picture that each expert has. </p>
+        </article>
+        <h1 id="techniques">Techniques</h1>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Pomodoro Technique</h2>
+        <article >
+            <p>This is a technique to overcome procrastination, and to do it, you study for 25 minutes less or more and take a break for 5 minutes less or more. This technique is really good for switching between focused and diffuse mode.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Overcome procrastination Technique</h2>
+        <article >
+            <p>The best way is to make studying a habit, and the exhibit is constructed on four things. <br>
+            - Clue <br>
+            - Routine <br>
+            - Reward <br>
+            - Belief <br>
+            If you make the work or study a habit of your day, you'll overcome procrastination.
+            </p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Process Not Product Technique</h2>
+        <article >
+            <p>It's a technique to trick your mind if you don't want to study or do work. It builds on you to commit yourself to the effort, not the result. For example, if you tell yourself you study for x minutes and I'm not, I don't care how much I'll finish, so this idea relaxes your mind from the stress of studying.</p>
+        </article>
+        <h1 id="Concepts">Concepts</h1>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>What is Learning</h2>
+        <article >
+            <p>Learning, as neorosciece has discovered until now, is a connection of neorons or the formation of synapses. Let's assume it's wires in your brain. Whenever you know, learn, or discover something new to you, a new synapse is formed, and even when this new information is connected with your current synapses, it creates new ones. Let's call it an internal road, and every time you repeat this information, the connection gets stronger.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Einstellung</h2>
+        <article >
+            <p>It's a German word that means mindset, and it's a reflection on learning when you have an initial thought, an idea you already have in another word, a neu​ral pattern, and it prevents a better idea, pattern, or solution from taking place. Roadblock to the new pattern.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Illosion of Competence</h2>
+        <article >
+            <p>It's a phenomenon that makes you think you understand and are able to make something up, but you can't. It comes from knowing the solution if you read it. You tell yourself, Ah, I know that, but you can't solve the problem yourself because you know it but don't know How it can be executed, Not to mention, practice it.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Overlearing</h2>
+        <article >
+            <p>When you restudy something, you already understand and are able to practice it, but it is useless and creates the illusion of competence.</p>
+        </article>
+        <h2><span class="plus" onclick="toggleParagraph(this)">-</span>Sleep Makes it Stick</h2>
+        <article >
+            <p>Without sleeping well, all these beautiful tips about learning can't be applied because sleep is the stage that combines the benefits of diffuse mode, which is connecting new information with old ones and ejecting toxic material that has been formed in your brain over waking time.
+            </p>
+        </article>
+        
+        <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+    </main>
+    <aside>
+        <div class="smallBox">&#x1F4A1; To Get more deep knowledge go to     <a href="https://www.coursera.org/learn/learning-how-to-learn/" target="_blank">Learning How to Learn Course on Coursera</a> because I couldn't get deep in a lot of areas
+        </div>
+    </aside>
+    <footer>
+        2024 &copy; Copy right Made with ❤️ by @omar-nafea
+    </footer>
+</body>
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopBtn.classList.add("show");
+    } else {
+        scrollToTopBtn.classList.remove("show");
+    }
+}
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function openPopup() {
+    document.getElementById('popup').style.display = 'block';
+}
+
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+}
+window.onclick = function(event) {
+    const popup = document.getElementById('popup');
+    if (event.target == popup) {
+        closePopup();
+    }
+}
+function toggleParagraph(element) {
+    const paragraph = element.parentElement.nextElementSibling.querySelector('p');
+    const button = document.querySelector('.plus');
+        paragraph.classList.toggle('hide');
+        if (paragraph.classList.contains('hide')) {
+        element.textContent = '+';
+    } else {
+        element.textContent = '-';
+    }
+}
+</script>
+</html>
